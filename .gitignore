@@ -3,3 +3,4 @@ main.o
 .idea/vcs.xml
 .idea/workspace.xml
 php-fastdtw.so
+simpletest.php

@@ -110,9 +110,8 @@ MKDIR				=	mkdir -p
 #	file, with the .cpp extension being replaced by .o.
 #
 
-SOURCES				=	$(wildcard *.cpp)
+SOURCES				=	$(wildcard *.cpp) $(wildcard FastDTW-x/FastDTW-x/Classes/*.cpp)
 OBJECTS				=	$(SOURCES:%.cpp=%.o)
-
 
 #
 #	From here the build instructions start
